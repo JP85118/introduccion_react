@@ -1,0 +1,42 @@
+.card__container{
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  height: 75vh;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.425);
+  box-shadow: rgba(0, 0, 0) 0px 3px 8px;
+}
+
+.card__img{
+  height: 360px;
+  border-radius: 60px;
+}
+
+.card__title{
+  font-size: 35px;
+}
+
+.card__text{
+  font-size: 20px;
+  padding: 20px;
+}
+
+.card__link{
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(212, 212, 212);
+  border: none;
+  border-radius: 20px;
+  width: 70px;
+  height: 25px;
+  transition: .4s ease-in-out;
+}
+
+.card__link:hover{
+  background-color: black;
+}
